@@ -14,6 +14,7 @@ class Dog
  end
  def breed 
    @breed
+   puts "Mutt"
  end
  puts "Mutt"
  end
