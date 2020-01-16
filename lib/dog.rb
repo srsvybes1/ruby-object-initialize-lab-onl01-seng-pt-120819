@@ -4,11 +4,7 @@ class Dog
  @breed=breed
  puts "Mutt"
   end
-  def initialize(breed)
-    @breed=breed
-    puts "Mutt"
-  end
- def name=(name)
+   def name=(name)
    @name=name
  end
  def breed=(breed)
