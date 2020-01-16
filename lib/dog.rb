@@ -8,7 +8,7 @@ class Dog
  end
  def breed=(breed)
    @breed=breed
-   return "Mutt"
+   puts "Mutt"
  end
  def name
    @name
@@ -16,8 +16,4 @@ class Dog
  def breed 
    @breed
  end
- def breed=(breed)
-   puts "Mutt"
- end
- 
  end
